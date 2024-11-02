@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+            /* added */
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 20%;
+        }
+
+        #menu-item {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 10px;
+        }
+
+        /*profile-pic {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            overflow: hidden;
+            margin: 0 auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: absolute;
+            top: 0px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            /* Adjusted width 
+            height: 80px;
+            /* Adjusted height 
+            background-color: #007bff;
+            /* sample color 
+            border-radius: 50%;
+
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            /* Adjusted font size 
+            color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }*/
+
+        .logo {
+            position: absolute;
+            top: 0;
+            left: -50%;
+            transform: translateX(-50%);
+            width: 10px;
+            /* Adjusted width */
+            height: 10px;
+            /* Adjusted height */
+            background-color: #007bff;
+            /* sample color */
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            /* Adjusted font size */
+            color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="file"] {
+            width: 100%;
+            margin-top: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="icon.jpeg" alt="logo" width="50" height="50">
+        </div> <!-- Replace "Logo" with your actual logo or use an image tag -->
+        </style>
+        <nav id="menu-bar"></nav>
+        <div id="menu-item">
+            <a href="home.html">Home</a>
+            <!--a href="profile.html">Profile</a-->
+            <!--a href="#">Logout</a-->
+        </div>
+
+        </nav>
+        <div class="profile-pic">
+            <img src="jotter ai.jpeg" alt="Profile Picture" width="10" height="110" class="center">
+            <!--Use a default profile picture or leave blank -->
+        </div>
+        <h2>User Profile</h2>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <!--div class="form-group">
+                <label for="profession">Profession:</label>
+                <input type="text" id="profession" name="profession" required>
+            </div-->
+            <div class="form-group">
+                <label for="profile-pic">Change Profile Picture:</label>
+                <input type="file" id="profile-pic" name="profile-pic" accept="image/*">
+            </div>
+            <input type="submit" value="Save Profile">
+        </form>
+    </div>
+</body>
+
+</html>

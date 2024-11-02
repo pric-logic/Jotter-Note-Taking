@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jotter - Home</title>
+    <style>
+        .jotterimg {
+            position: absolute;
+            top: 0;
+            left:50%;
+            transform: translateX(-50%);
+            text-align:center;
+            align-items: center;
+            margin: auto;
+            width: 500px;
+            height: 500px;
+            z-index: 1; /* Ensure the image appears above the video */
+        }
+
+        #myVideo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+             min-width: 100%; 
+             min-height: 100%;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif, 'Times New Roman', Times, serif;
+            background-color: #f0f0f0;
+            text-align: justify;
+        }
+
+        nav {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            margin: 10px;
+            background-color: #e1b0ed; /* Add a background color */
+            color: white; /* Add a text color */
+            }
+
+       
+
+        
+
+        /* Style for the left section containing the icon */
+        .left-section {
+            flex: 1;
+            text-align: center;
+        }
+        .content {
+            position: fixed;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            color: #f1f1f1;
+            width: 97%;
+            padding: 10px;
+        }
+
+        /* Style for the icon */
+        .website-icon {
+            width: 500px;
+            /* Adjust size as needed */
+            height: 500px;
+            /* Adjust size as needed */
+        }
+
+        /* Style for the right section containing the text */
+        .right-section {
+            flex: 2;
+            text-align: center;
+        }
+
+        /* Styling for the text */
+        .main-content {
+            background-color: rgba(255, 255, 255, 0.8);
+            /* Semi-transparent white background */
+            padding: 20px;
+            border-radius: 10px;
+
+        }
+        a:link, a:visited {
+            background-color: #2c0242;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        a:hover, a:active {
+            background-color: rgb(37, 3, 42)
+            }
+</style>
+        
+</head>
+
+<body>
+    
+    <video autoplay muted loop id="myVideo">
+        <source src="loop.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+    
+   
+
+    <body>
+        
+        <div class="jotterimg"><img src="jotter.png" alt="jotter" ></div>
+        <nav>
+            <a href="index.html">Notes</a>
+            <a href="http://localhost:8501/">OCR</a>
+            <a href="login.html">Logout</a>
+            <!--a href="profile.html">View Profile</a-->
+        </nav>
+    </body>
+    </header>
+
+    <div class="container">
+        <div class="left-section">
+        </div>
+        <div class="right-section">
+
+            <head>
+                <style>
+                    body {
+                        background-color: #f0f0f0;
+                        padding: 20px;
+                        margin: 0;
+                    }
+                </style>
+            </head>
+
+            <body>
+                <div>
+                    <div class="content">
+                        <h1>Jotter</h1>
+                        <p>
+                        <h2>Welcome to Jotter - Your Innovative Note-Taking Solution!</h2>
+
+                        Introducing Jotter, a groundbreaking note-taking website powered by cutting-edge OCR (Optical
+                        Character Recognition) technology. With Jotter, seamlessly convert handwritten text from images
+                        into digital format with unparalleled accuracy and speed.
+
+                        At the heart of Jotter lies an efficient AI model, meticulously designed to ensure swift and
+                        precise character recognition. Say goodbye to manual transcribing and hello to effortless
+                        digitization of your handwritten notes.
+
+                        But Jotter isn't just another note-taking tool. It's a fully operational project ready to cater
+                        to your note-taking needs, whether you're a student, professional, or creative individual. And
+                        with our commitment to accessibility, Jotter will be hosted for widespread use across the
+                        internet, ensuring that everyone can benefit from its convenience and efficiency.
+
+                        But we're not stopping there. Jotter is constantly evolving. Our future plans include scaling up
+                        the project with additional features in subsequent phases, making Jotter a dynamic and
+                        ever-improving solution for users seeking enhanced note-taking experiences.
+
+                        Join the revolution in note-taking technology with Jotter. Say hello to effortless digitization,
+                        unparalleled accuracy, and endless possibilities for productivity. Try Jotter today and
+                        experience the future of note-taking, right at your fingertips.</p>
+                    </div>
+                </div>
+                
+                
+            
+            </body>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
