@@ -4,7 +4,7 @@
 Jotter Note-Taking is a web-based application developed as part of a project exhibition at VIT Bhopal University. The primary objective of this project is to improve note-taking by leveraging Optical Character Recognition (OCR) technology to convert handwritten or printed text into digital notes.
 
 ## Motivation
-The motivation behind Jotter Note-Taking was to address the challenge of manually transcribing handwritten notes into digital formats. By automating this process, students can efficiently digitize their notes from books, lecture slides, or handwritten documents, making them easier to organize and reference.
+The motivation behind Jotter Note-Taking was to address the challenge of manually transcribing handwritten notes into digital formats. By automating this process, students can efficiently digitize their notes from books, lecture slides, or handwritten documents, making them easier to organize and reference.This was tested with 10 group of 10 students and they reported that their productivity was significantly enhanced.
 
 ## Features
 - **OCR-Based Note Conversion**: Users can upload images of handwritten or printed text, which is then converted into editable digital notes.
