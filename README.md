@@ -7,7 +7,7 @@ Jotter Note-Taking is a web-based application developed as part of a project exh
 The motivation behind Jotter Note-Taking was to address the challenge of manually transcribing handwritten notes into digital formats. By automating this process, students can efficiently digitize their notes from books, lecture slides, or handwritten documents, making them easier to organize and reference.This was tested with 10 group of 10 students and they reported that their productivity was significantly enhanced.
 
 ## Features
-- **OCR-Based Note Conversion**: Users can upload images of handwritten or printed text, which is then converted into editable digital notes.
+- **OCR-Based Note Conversion**: Users can upload images of handwritten or printed text, which is then converted into editable digital notes using tesseract.
 - **User Authentication**: Basic sign-up and sign-in functionality implemented using PHP.
 - **Minimalistic UI**: A simple and user-friendly interface designed for ease of use.
 - **Integration with Gemini AI**: Optional feature to summarize notes using Gemini AI.
