@@ -29,7 +29,8 @@ The motivation behind Jotter Note-Taking was to address the challenge of manuall
 - Cloud-based storage integration for better accessibility.
 
 ## Contributors
-- Priyanshi Sharma - UI/UX Design, OCR application, Text summariser application, Note taking frontend
-- Navya Bansal-authentication page, sign in and sign up page, database
+- Priyanshi Sharma  OCR application, Text summariser application, Note taking frontend
+- Navya Bansal-authentication page, sign in and sign up page, database,frontend,OCR
+- 
 
 
